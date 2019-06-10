@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+(c) Copyright 3Dconnexion. All rights reserved. 
+$Revision: 14618 $
+-->
+<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.10">
+  <AppInfo>
+    <Signature>
+      <Name>Windows Explorer</Name>
+      <ExecutableName>explorer.exe</ExecutableName>
+    </Signature>
+    <Options />
+  </AppInfo>
+  <CfgProperties>
+    <InheritsFrom>STR_DEFAULT_KMJ</InheritsFrom>
+  </CfgProperties>
+  <Devices>
+    <Device>
+      <Name>Standard 3D Mouse</Name>
+      <VendorID>0</VendorID>
+      <ProductID>0</ProductID>
+      <InheritsFrom>Standard 3D Mouse</InheritsFrom>
+      <AxisBank>
+        <Name>Default</Name>
+        <ID>Default</ID>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_X</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_X</ActionID>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Rx</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMouse_Wheel</ActionID>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+      </AxisBank>
+    </Device>
+  </Devices>
+  <AuthorInfo>
+    <DriverVersion>17.6.0.16266</DriverVersion>
+    <LastChange>
+      <Tool>3DxSmartUI.exe</Tool>
+      <Version>1.2.19147.16250</Version>
+      <Date>10-Jun-19 19:39:53 UTC</Date>
+      <User>andrea</User>
+    </LastChange>
+  </AuthorInfo>
+</AppCfg>
